@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Abubakar Muhammad</title>
+    <link rel="stylesheet" href="projects.css" />
+  </head>
+  <body>
+    <header id="home">
+      <h1>My Projects</h1>
+      <p>A showcase of some of the projects I've been working on.</p>
+    </header>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-container">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>Description of Project One. This project involves...</p>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>Description of Project Two. This project focuses on...</p>
+        </div>
+        <div class="project-card">
+          <h3>Project Three</h3>
+          <p>Description of Project Three. In this project, I...</p>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
+    </section>
+
+    <footer id="contact">
+      <h3>Contact Me</h3>
+      <p>Email: example@example.com</p>
+      <div class="social-links">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+      </div>
+    </footer>
+
+    <script>
+      const hamburgerNav = document.getElementById("hamburger-nav");
+      const navLinks = document.querySelector(".nav-links");
+
+      hamburgerNav.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
